@@ -45,26 +45,42 @@ article h3, article p { margin-inline: 1.1rem; }
 article h3 { margin-bottom: 0; }
 article p { margin-top: .25rem; }
 .project-preview {
-  display: grid;
-  place-items: center;
-  aspect-ratio: 2.35;
-  overflow: hidden;
-  padding: .65rem;
-  background: #e1ece6;
+  aspect-ratio: 2.7;
   border-bottom: 1px solid var(--line);
+  background-color: #dce9df;
 }
-.project-preview img { display: block; width: 100%; height: 100%; min-height: 0; object-fit: contain; }
-.lobster-preview { padding: 0; }
-.lobster-preview img { object-fit: cover; object-position: center 58%; }
-.shark-preview {
-  background: radial-gradient(ellipse at 48% 0%, #82b5ae, transparent 70%),
-    linear-gradient(171deg, #327571 70%, #215656 71%, #143a3b);
+.pattern-bay {
+  background-image: repeating-radial-gradient(ellipse at 87% 124%, transparent 0 18px, #477c72 19px 20px, transparent 21px 33px);
 }
-.shark-preview span {
-  width: 72%;
-  aspect-ratio: 3.3;
-  background: linear-gradient(#1a4142 45%, #396968 84%);
-  clip-path: polygon(0 50%, 7% 43%, 24% 40%, 42% 35%, 49% 11%, 54% 3%, 57% 37%, 74% 44%, 88% 44%, 100% 9%, 97% 39%, 94% 52%, 98% 73%, 88% 57%, 66% 58%, 54% 63%, 61% 88%, 45% 76%, 38% 63%, 15% 60%, 4% 55%);
+.pattern-feeding {
+  background-color: #e8eadb;
+  background-image: radial-gradient(ellipse 5px 2px at 7px 10px, #638475 96%, transparent),
+    radial-gradient(ellipse 3px 2px at 22px 17px, #8ca496 95%, transparent);
+  background-size: 39px 25px;
+}
+.pattern-occupancy {
+  background-color: #e1ebe8;
+  background-image: radial-gradient(circle at 8px 8px, #36766e 2px, transparent 2.5px),
+    radial-gradient(circle at 24px 24px, transparent 2px, #6c9a92 2.5px 3px, transparent 3.5px);
+  background-size: 32px 32px;
+}
+.pattern-river {
+  background-color: #dceae6;
+  background-image: repeating-linear-gradient(108deg, transparent 0 37px, #82a89e55 38px 39px, transparent 40px 57px),
+    repeating-radial-gradient(ellipse at 0% 120%, transparent 0 19px, #477c72 20px 21px, transparent 22px 41px);
+}
+.pattern-lobster {
+  background-color: #eee6dc;
+  background-image: repeating-linear-gradient(90deg, transparent 0 19px, #a87960 20px 21px, transparent 22px 24px),
+    repeating-linear-gradient(90deg, transparent 0 43px, #986347 44px 45px, transparent 46px 48px);
+  background-size: 100% 18%, 100% 32%;
+  background-repeat: no-repeat;
+  background-position: center 58%, center;
+}
+.pattern-sharks {
+  background-color: #d8e6e4;
+  background-image: repeating-linear-gradient(143deg, transparent 0 25px, #507d80 26px 27px, transparent 28px 41px),
+    repeating-linear-gradient(37deg, transparent 0 25px, #72959766 26px 27px, transparent 28px 41px);
 }
 .resume { max-width: 49rem; }
 .resume-intro { padding-block: 3rem; }
