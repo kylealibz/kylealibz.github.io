@@ -46,41 +46,33 @@ article h3 { margin-bottom: 0; }
 article p { margin-top: .25rem; }
 .project-preview {
   aspect-ratio: 2.7;
+  background-position: center;
   border-bottom: 1px solid var(--line);
   background-color: #dce9df;
 }
 .pattern-bay {
-  background-image: repeating-radial-gradient(ellipse at 87% 124%, transparent 0 18px, #477c72 19px 20px, transparent 21px 33px);
+  background-color: #e3efeb;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2270%22%20viewBox%3D%220%200%2096%2070%22%20color%3D%22%23397e75%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23397e75%22%20stroke-width%3D%221.6%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2233%22%20cy%3D%2239%22%20r%3D%2213%22%2F%3E%3Ccircle%20cx%3D%2263%22%20cy%3D%2220%22%20r%3D%227%22%2F%3E%3Ccircle%20cx%3D%2271%22%20cy%3D%2252%22%20r%3D%224%22%2F%3E%3Cpath%20d%3D%22M28%2038a5%205%200%200%201%205-5%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
 }
 .pattern-feeding {
-  background-color: #e8eadb;
-  background-image: radial-gradient(ellipse 5px 2px at 7px 10px, #638475 96%, transparent),
-    radial-gradient(ellipse 3px 2px at 22px 17px, #8ca496 95%, transparent);
-  background-size: 39px 25px;
+  background-color: #e8eddf;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22130%22%20height%3D%2274%22%20viewBox%3D%220%200%20130%2074%22%20color%3D%22%23587b67%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23587b67%22%20stroke-width%3D%221.6%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M30%2028q17-17%2034%200-17%2017-34%200l-9%206V22zM70%2053q13-12%2025%200-12%2012-25%200l-7%205V48z%22%2F%3E%3Ccircle%20cx%3D%2255%22%20cy%3D%2227%22%20r%3D%221%22%20fill%3D%22currentColor%22%2F%3E%3Ccircle%20cx%3D%2288%22%20cy%3D%2252%22%20r%3D%221%22%20fill%3D%22currentColor%22%2F%3E%3Cpath%20d%3D%22M73%2021h.1m8%209h.1m22%2016h.1%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
 }
 .pattern-occupancy {
-  background-color: #e1ebe8;
-  background-image: radial-gradient(circle at 8px 8px, #36766e 2px, transparent 2.5px),
-    radial-gradient(circle at 24px 24px, transparent 2px, #6c9a92 2.5px 3px, transparent 3.5px);
-  background-size: 32px 32px;
+  background-color: #deebe8;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22132%22%20height%3D%2274%22%20viewBox%3D%220%200%20132%2074%22%20color%3D%22%233d766e%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%233d766e%22%20stroke-width%3D%221.6%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M24%2045c12-4%2016-13%2020-23%207%205%208%2013%206%2021l15%202m-47%206q26%205%2053%200%22%2F%3E%3Ccircle%20cx%3D%2295%22%20cy%3D%2224%22%20r%3D%223%22%20fill%3D%22currentColor%22%2F%3E%3Ccircle%20cx%3D%22108%22%20cy%3D%2243%22%20r%3D%223%22%2F%3E%3Ccircle%20cx%3D%2288%22%20cy%3D%2251%22%20r%3D%223%22%20fill%3D%22currentColor%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
 }
 .pattern-river {
-  background-color: #dceae6;
-  background-image: repeating-linear-gradient(108deg, transparent 0 37px, #82a89e55 38px 39px, transparent 40px 57px),
-    repeating-radial-gradient(ellipse at 0% 120%, transparent 0 19px, #477c72 20px 21px, transparent 22px 41px);
+  background-color: #e0ede8;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22156%22%20height%3D%2274%22%20viewBox%3D%220%200%20156%2074%22%20color%3D%22%23408578%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23408578%22%20stroke-width%3D%221.6%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M-2%2038c36%200%2039-22%2073-22s49%2022%2087%2022M-2%2047c36%200%2039-22%2073-22s49%2022%2087%2022M-2%2056c36%200%2039-22%2073-22s49%2022%2087%2022%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
 }
 .pattern-lobster {
-  background-color: #eee6dc;
-  background-image: repeating-linear-gradient(90deg, transparent 0 19px, #a87960 20px 21px, transparent 22px 24px),
-    repeating-linear-gradient(90deg, transparent 0 43px, #986347 44px 45px, transparent 46px 48px);
-  background-size: 100% 18%, 100% 32%;
-  background-repeat: no-repeat;
-  background-position: center 58%, center;
+  background-color: #f0e7dc;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22124%22%20height%3D%2298%22%20viewBox%3D%220%200%20124%2098%22%20color%3D%22%2395694f%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%2395694f%22%20stroke-width%3D%221.6%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M56%2034q-8-15-19-19m31%2019q8-15%2019-19M62%2032c-9%200-11%2013-7%2022l2%2014%205%207%205-7%202-14c4-9%202-22-7-22ZM56%2049h12m-12%207h12m-11%206h10m-5%2013-9%206%209%204%209-4-9-6m-9-32-10%204-6%207m16-4-10%208-4%208m14-9-7%208-3%209m28-31%2010%204%206%207m-16-4%2010%208%204%208m-14-9%207%208%203%209%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
 }
 .pattern-sharks {
-  background-color: #d8e6e4;
-  background-image: repeating-linear-gradient(143deg, transparent 0 25px, #507d80 26px 27px, transparent 28px 41px),
-    repeating-linear-gradient(37deg, transparent 0 25px, #72959766 26px 27px, transparent 28px 41px);
+  background-color: #dde9ec;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22152%22%20height%3D%2280%22%20viewBox%3D%220%200%20152%2080%22%20color%3D%22%233e727d%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%233e727d%22%20stroke-width%3D%221.6%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M22%2043q11-9%2033-10l13-15%205%2015q18%202%2029%209l16-13-5%2016%205%2011-16-8q-14%205-31%206l-8%209-4-10q-26-2-37-10z%22%2F%3E%3Cpath%20d%3D%22m68%2018%203%208%204-1%22%20stroke%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2235%22%20cy%3D%2242%22%20r%3D%221%22%20fill%3D%22currentColor%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
 }
 .resume { max-width: 49rem; }
 .resume-intro { padding-block: 3rem; }
