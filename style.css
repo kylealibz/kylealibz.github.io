@@ -34,11 +34,6 @@ p { color: var(--muted); }
 .button:hover { background: #236453; }
 .secondary { background: transparent; color: var(--green); }
 .secondary:hover { background: #e2ece2; }
-.map {
-  background-color: #163f36;
-  background-image: repeating-linear-gradient(0deg, transparent 0 31px, #b9dec322 31px 32px),
-    repeating-linear-gradient(90deg, transparent 0 31px, #b9dec322 31px 32px);
-}
 .hero-photo, .field-photos figure { margin: 0; }
 .hero-photo img, .field-photos img { display: block; width: 100%; height: auto; border-radius: .4rem; }
 figcaption { margin-top: .45rem; font-size: .9rem; color: var(--muted); }
@@ -49,16 +44,28 @@ article { border: 1px solid var(--line); border-radius: .4rem; overflow: hidden;
 article h3, article p { margin-inline: 1.1rem; }
 article h3 { margin-bottom: 0; }
 article p { margin-top: .25rem; }
-.sample { height: 8rem; }
-.map { background-image: repeating-radial-gradient(ellipse at 52% 75%, transparent 0 14px, #a0d4b3aa 15px 16px, transparent 17px 25px); }
-.chart { display: flex; justify-content: center; align-items: end; gap: 4%; background: #dceadf; padding: 1rem; }
-.chart span { width: 7%; height: 25%; background: #287260; }
-.chart span:nth-child(2) { height: 42%; }
-.chart span:nth-child(3) { height: 36%; }
-.chart span:nth-child(4) { height: 65%; }
-.chart span:nth-child(5) { height: 57%; }
-.chart span:nth-child(6) { height: 74%; }
-.chart span:nth-child(7) { height: 91%; }
+.project-preview {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 2.35;
+  overflow: hidden;
+  padding: .65rem;
+  background: #e1ece6;
+  border-bottom: 1px solid var(--line);
+}
+.project-preview img { display: block; width: 100%; height: 100%; min-height: 0; object-fit: contain; }
+.lobster-preview { padding: 0; }
+.lobster-preview img { object-fit: cover; object-position: center 58%; }
+.shark-preview {
+  background: radial-gradient(ellipse at 48% 0%, #82b5ae, transparent 70%),
+    linear-gradient(171deg, #327571 70%, #215656 71%, #143a3b);
+}
+.shark-preview span {
+  width: 72%;
+  aspect-ratio: 3.3;
+  background: linear-gradient(#1a4142 45%, #396968 84%);
+  clip-path: polygon(0 50%, 7% 43%, 24% 40%, 42% 35%, 49% 11%, 54% 3%, 57% 37%, 74% 44%, 88% 44%, 100% 9%, 97% 39%, 94% 52%, 98% 73%, 88% 57%, 66% 58%, 54% 63%, 61% 88%, 45% 76%, 38% 63%, 15% 60%, 4% 55%);
+}
 .resume { max-width: 49rem; }
 .resume-intro { padding-block: 3rem; }
 .resume h1 { font-size: clamp(3rem, 8vw, 5rem); }
