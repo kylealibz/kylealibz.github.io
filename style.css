@@ -39,10 +39,11 @@ p { color: var(--muted); }
 figcaption { margin-top: .45rem; font-size: .9rem; color: var(--muted); }
 .field-photos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
 .section { padding-block: 2.8rem; border-top: 1px solid var(--line); }
-.projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin-top: 1.5rem; }
+.projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
 article { border: 1px solid var(--line); border-radius: .4rem; overflow: hidden; background: #fff; }
-article h3, article p { margin-inline: 1.1rem; }
-article h3 { margin-bottom: 0; }
+.project-group { margin: 1.6rem 0 .75rem; }
+article h4, article p { margin-inline: 1.1rem; }
+article h4 { margin-bottom: 0; }
 article p { margin-top: .25rem; }
 .project-preview {
   aspect-ratio: 2.7;
@@ -73,6 +74,10 @@ article p { margin-top: .25rem; }
 .pattern-sharks {
   background-color: #dde9ec;
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22152%22%20height%3D%2280%22%20viewBox%3D%220%200%20152%2080%22%20color%3D%22%233e727d%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%233e727d%22%20stroke-width%3D%221.6%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M22%2043q11-9%2033-10l13-15%205%2015q18%202%2029%209l16-13-5%2016%205%2011-16-8q-14%205-31%206l-8%209-4-10q-26-2-37-10z%22%2F%3E%3Cpath%20d%3D%22m68%2018%203%208%204-1%22%20stroke%3D%22%23fff%22%2F%3E%3Ccircle%20cx%3D%2235%22%20cy%3D%2242%22%20r%3D%221%22%20fill%3D%22currentColor%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+.pattern-residency {
+  background-color: #e0ebe5;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22144%22%20height%3D%2280%22%20viewBox%3D%220%200%20144%2080%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23547b77%22%20stroke-width%3D%221.6%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M17%2034q12-8%2026-7l9-10%202%2011%2013%205%2013-7-4%209%204%208-13-5-16%202-6%207-3-7q-16-1-25-6zM105%2054v-9m-5%209h10M97%2040a11%2011%200%200%201%2016%200m-21-5a18%2018%200%200%201%2026%200%22%2F%3E%3Ccircle%20cx%3D%22105%22%20cy%3D%2244%22%20r%3D%221%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
 }
 .resume { max-width: 49rem; }
 .resume-intro { padding-block: 3rem; }
