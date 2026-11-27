@@ -83,6 +83,14 @@ article p { margin-top: .25rem; }
   background-color: #e3eee7;
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22154%22%20height%3D%2288%22%20viewBox%3D%220%200%20154%2088%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23527d71%22%20stroke-width%3D%221.6%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M66%2028q10-7%2023-7l7-8%203%208%2012%204%2012-6-4%208%204%206-12-4-13%202-6%205-3-5q-14-1-23-3zM24%2071h40m-20%200V43m0%2018-11-10v-9m11%2012%2010-10V33M37%2061l-11-4-4-8m22%2018%2014-9%204-9m41%2022h27m-13%200V51m0%2011-8-7v-6m8%2014%209-7v-8%22%2F%3E%3Ccircle%20cx%3D%2277%22%20cy%3D%2226%22%20r%3D%22.8%22%20fill%3D%22%23527d71%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
 }
+.pattern-las-perlas-qgis-mapping {
+  background-color: #dfeee8;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22138%22%20height%3D%2277%22%20viewBox%3D%220%200%20138%2077%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23427f73%22%20stroke-width%3D%221.6%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M16%2038q-3-9%208-14l2-7%209%202%204%2012-9%207zm40%2012q-8-8%200-14l10%201%203%209-5%207zm39-24%207-7%2010%204-1%2011-9%202zM36%2057l17%204%2037-17%22%20stroke-dasharray%3D%220%22%2F%3E%3Ccircle%20cx%3D%2236%22%20cy%3D%2257%22%20r%3D%223%22%2F%3E%3Ccircle%20cx%3D%2253%22%20cy%3D%2261%22%20r%3D%223%22%2F%3E%3Ccircle%20cx%3D%2290%22%20cy%3D%2244%22%20r%3D%223%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+.pattern-macneil-finprint {
+  background-color: #e5ebdf;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22138%22%20height%3D%2277%22%20viewBox%3D%220%200%20138%2077%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23567966%22%20stroke-width%3D%221.6%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M18%2033h26v19H18zM44%2039l8-4v15l-8-4M20%2057h30m25-5V38m13%2014V30m13%2022V43m13%209V24M71%2057h48%22%2F%3E%3Ccircle%20cx%3D%2231%22%20cy%3D%2242%22%20r%3D%224%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
 .resume { max-width: 49rem; }
 .resume-intro { padding-block: 3rem; }
 .resume h1 { font-size: clamp(3rem, 8vw, 5rem); }
